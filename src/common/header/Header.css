@@ -1,0 +1,24 @@
+  
+.header {
+    height: 46px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px; 
+    padding-left: 16px;
+    background-color: #222;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.logoimg{
+    height: 35px;
+    margin-left: 2px;
+    background-color:  #ff7f7f;
+    animation: rotation 8s infinite linear;
+}
